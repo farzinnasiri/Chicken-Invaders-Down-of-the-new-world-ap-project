@@ -2,17 +2,1035 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92d78b23-376f-4ed0-b18b-45647bbc372a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client/ClientMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client/ClientTCPConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/GameState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/ServerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/ServerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/ServerTCPConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/UniqueId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20180813.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/backgroundsConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/barsConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/basicConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/buttonsConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/effectsConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/enemyConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/engineColorIconsConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/exhaustConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/extrasConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/fontConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/gameBoxesConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/musicConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/otherImageAssetsConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/soundConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/spaceShipConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/spaceshipColorIconsConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/configs/weaponsConfigs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/users/aa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/users/arian.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/users/farzin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/users/kmj.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/users/mamad.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid10000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid11576.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid2028.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid2148.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid3672.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid7688.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid9600.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx-swt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.base.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.fxml.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.graphics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.media.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javafx.web.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/json-20180813.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/ClientConnectionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/ClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/animations/BarAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/animations/EnemyAnimation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/animations/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/audio/AudioManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/audio/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/audio/Sound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/buttons/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/buttons/BackButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/buttons/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/buttons/DecreaseVolumeButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/buttons/IncreaseVolumeButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/buttons/MuteButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/buttons/StringButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/game/Background.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/input/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/input/MouseInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/Credits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/PauseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/game/GameScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/game/GameSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/game/MultiPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/game/ViewScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/hallOfFame/HallOfFame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/hallOfFame/RankContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/options/Options.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/options/SoundSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/options/customize/ColorPicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/options/customize/Customize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/options/customize/EngineCustomization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/options/customize/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/options/customize/SpaceshipCustomization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/players/AddPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/players/PlayersState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/splashScreen/SplashScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/stateMachine/StateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/stateMachine/SuperStateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/systemManager/ConfigsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/systemManager/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/systemManager/PlayersManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/DrawableObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/DrawableObjectPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/GameObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/MyPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/PlayerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/EnemyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/WavesHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/chickens/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/chickens/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/BossGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/CircularGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/RotationalGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/SquareGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/SuicideGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/TurningGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/extras/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/extras/Egg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/extras/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/extras/PowerUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/pools/ChickenObjectPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/pools/CoinObjectPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/pools/EggObjectPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/pools/FoodObjectPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/pools/LaserObjectPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/pools/PowerUpObjectPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/spaceship/HeatGage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/spaceship/SpaceShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/weapons/Laser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/weapons/Missile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/Assets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/GroupLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/JsonPropertiesParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/Loader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/ObjectPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/PlayerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/Vector2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/Chicken_Invaders_main_background_music.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/Star_Wars_Credits.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/musics/Davood.Behboodi-Doostet.Daram320-DornaMusic.Com.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/musics/John-Ottman-Suite-X2_3036614.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/musics/avengers.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/musics/pirates-of-caribbean.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/sounds/AKH.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/sounds/boss_blast.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/sounds/chicken_sound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/sounds/clicking_sound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/sounds/coins.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/sounds/eating.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/sounds/explosion.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/sounds/lasergun_sound.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/sounds/missile.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/sounds/overheat_sound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/sounds/player_explosion.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/audios/sounds/powerup.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/fonts/ARDESTINE.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/fonts/CRUSHED c PERSONAL USE ONLY.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/fonts/Cross Town Personal Use.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/fonts/ROCKEB.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/backgrounds/credits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/backgrounds/game_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/backgrounds/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/backgrounds/space.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/backgrounds/splash_screen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/bars/player_state.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/bars/score_life_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/boxes/highscore_box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/boxes/name_input_box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/boxes/pause_box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/boxes/players_box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/OK_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/OK_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/add_user_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/add_user_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/backIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/backOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/checkbox_Checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/checkbox_Unchecked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/connect_server_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/connect_server_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/continue_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/continue_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/controls_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/controls_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/credits_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/credits_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/customizeIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/customizeOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/decrease_volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/delete_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/delete_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/done_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/done_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/engineIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/engineOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/enter_game_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/enter_game_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/establish_server_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/establish_server_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/hall_of_fame_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/hall_of_fame_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/increase_volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/join_as_viewer_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/join_as_viewer_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/multiplayer_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/multiplayer_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/muteOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/muteOn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/new_feature_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/new_feature_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/new_game_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/new_game_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/options_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/options_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/quitGameIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/quitGameOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/quit_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/quit_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/reset_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/reset_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/resumeIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/resumeOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/save_the_world_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/save_the_world_out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/soundIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/soundOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/spaceshipIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/buttons/spaceshipOut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/color_icons/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/color_icons/cyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/color_icons/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/color_icons/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/color_icons/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/color_icons/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/color_icons/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/color_icons/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(22).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(23).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(24).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(25).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(26).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(27).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(28).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(29).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(30).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(49).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(50).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(51).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(52).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(53).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(54).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(55).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(56).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(57).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(58).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(59).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(60).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(61).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(62).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(63).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(64).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(65).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(66).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(67).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(68).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(69).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(70).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(71).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(72).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(73).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(74).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/effects/missile_explosion/(9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/blueChickens/frame (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/blueChickens/frame (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/blueChickens/frame (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/blueChickens/frame (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/blueChickens/frame (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/blueChickens/frame (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/blueChickens/frame (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (22).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (23).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (24).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (25).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (26).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (27).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (28).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (29).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (30).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (49).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (50).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (51).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (52).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (53).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (54).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (55).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (56).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (57).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (58).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (59).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (60).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (61).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (62).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (63).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (64).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (65).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (66).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (67).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (68).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (69).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (70).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (71).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (72).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (73).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (74).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (75).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (76).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (77).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (78).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (79).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (80).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/dancer/frame (9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/greenChickens/frame (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/greenChickens/frame (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/greenChickens/frame (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/greenChickens/frame (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/greenChickens/frame (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/greenChickens/frame (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/greenChickens/frame (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/pinkChickens/frame (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/pinkChickens/frame (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/pinkChickens/frame (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/pinkChickens/frame (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/pinkChickens/frame (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/pinkChickens/frame (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/pinkChickens/frame (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (100).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (101).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (102).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (103).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (104).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (105).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (106).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (107).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (108).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (109).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (110).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (111).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (112).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (113).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (114).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (115).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (116).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (117).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (118).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (119).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (120).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (121).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (122).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (123).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (124).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (125).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (126).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (127).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (128).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (129).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (130).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (131).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (132).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (133).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (134).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (135).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (136).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (137).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (138).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (139).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (140).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (141).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (142).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (143).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (144).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (145).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (146).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (147).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (148).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (149).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (150).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (151).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (152).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (153).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (154).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (155).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (156).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (157).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (158).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (159).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (160).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (161).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (162).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (163).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (164).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (165).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (166).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (167).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (168).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (169).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (170).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (171).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (172).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (173).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (174).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (175).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (176).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (177).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (178).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (179).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (180).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (181).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (182).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (183).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (184).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (185).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (186).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (187).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (188).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (189).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (190).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (191).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (192).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (193).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (194).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (195).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (196).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (197).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (198).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (199).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (200).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (201).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (202).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (203).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (204).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (205).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (206).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (207).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (208).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (209).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (210).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (211).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (212).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (213).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (214).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (215).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (216).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (217).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (218).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (219).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (22).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (220).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (221).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (222).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (223).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (224).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (225).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (226).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (227).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (228).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (229).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (23).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (230).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (231).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (232).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (233).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (234).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (235).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (236).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (237).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (238).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (239).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (24).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (240).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (241).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (242).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (243).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (244).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (245).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (246).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (247).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (248).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (249).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (25).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (250).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (251).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (252).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (253).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (254).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (255).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (256).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (257).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (258).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (259).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (26).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (260).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (261).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (262).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (263).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (264).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (265).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (266).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (267).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (268).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (269).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (27).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (270).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (271).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (272).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (273).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (274).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (275).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (276).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (277).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (278).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (279).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (28).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (280).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (281).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (282).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (283).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (284).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (285).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (286).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (287).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (288).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (289).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (29).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (290).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (291).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (292).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (293).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (294).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (295).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (296).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (297).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (298).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (299).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (30).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (300).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (301).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (302).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (303).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (304).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (305).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (306).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (307).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (308).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (309).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (31).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (310).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (311).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (312).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (313).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (314).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (315).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (316).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (317).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (318).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (319).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (32).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (320).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (321).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (322).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (323).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (324).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (325).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (326).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (327).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (328).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (329).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (33).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (330).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (331).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (332).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (333).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (334).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (335).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (336).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (337).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (338).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (339).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (34).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (340).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (341).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (342).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (343).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (344).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (345).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (346).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (347).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (348).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (349).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (35).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (350).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (351).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (352).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (353).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (354).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (355).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (356).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (357).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (358).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (359).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (36).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (360).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (37).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (38).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (39).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (40).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (41).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (42).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (43).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (44).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (45).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (46).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (47).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (48).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (49).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (50).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (51).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (52).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (53).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (54).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (55).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (56).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (57).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (58).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (59).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (60).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (61).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (62).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (63).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (64).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (65).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (66).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (67).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (68).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (69).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (70).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (71).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (72).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (73).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (74).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (75).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (76).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (77).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (78).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (79).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (80).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (81).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (82).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (83).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (84).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (85).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (86).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (87).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (88).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (89).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (90).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (91).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (92).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (93).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (94).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (95).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (96).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (97).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (98).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/spaceStation2/frame (99).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/swimmer/frame (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/swimmer/frame (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/swimmer/frame (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/swimmer/frame (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/swimmer/frame (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/yellowChickens/frame (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/yellowChickens/frame (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/yellowChickens/frame (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/yellowChickens/frame (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/yellowChickens/frame (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/yellowChickens/frame (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/enemies/yellowChickens/frame (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/blue/(9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/green/(9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/purple/(9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/red/(9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/(9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/blue/(9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/green/(9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/purple/(9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/red/(9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(12).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(13).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(14).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(15).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(16).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(17).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(18).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(19).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(20).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(21).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/exhausts/yellow/yellow/(9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/extras/coins/Coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/extras/eggs/Egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/extras/food/CI3Leg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/extras/food/DoubleBurger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/extras/food/TLCBurger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/extras/powerup/BLUE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/extras/powerup/GOLD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/extras/powerup/GREEN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/extras/powerup/RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/others/knife.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/others/shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/spaceships/ship_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/spaceships/ship_cyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/spaceships/ship_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/spaceships/ship_orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/spaceships/ship_pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/spaceships/ship_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/spaceships/ship_yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/weapons/laserBlue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/weapons/laserGreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/weapons/laserRed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/images/weapons/missile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chicken Invaders-Down of the new world.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chicken Invaders-Down of the new world.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chicken Invaders-Down of the new world/Client/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chicken Invaders-Down of the new world/Client/ClientMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chicken Invaders-Down of the new world/Client/ClientTCPConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chicken Invaders-Down of the new world/Server/GameState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chicken Invaders-Down of the new world/Server/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chicken Invaders-Down of the new world/Server/ServerClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chicken Invaders-Down of the new world/Server/ServerMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chicken Invaders-Down of the new world/Server/ServerTCPConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chicken Invaders-Down of the new world/Utils/UniqueId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/ClientMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/ClientTCPConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/ServerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/ServerClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/ServerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/ServerTCPConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Server/ServerConnectionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/UniqueId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/UniqueId.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,22 +1039,111 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Chicken Invaders-Down of the new world" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Client/ClientMain.java">
+        <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/ClientConnectionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+            <state relative-caret-position="1824">
+              <caret line="159" column="35" selection-start-line="159" selection-start-column="35" selection-end-line="159" selection-end-column="35" />
+              <folding>
+                <element signature="method#ClientConnectionHandler#0;class#ClientConnectionHandler#0" />
+                <element signature="method#init#0;class#ClientConnectionHandler#0" />
+                <element signature="method#start#0;class#ClientConnectionHandler#0" />
+                <element signature="method#stop#0;class#ClientConnectionHandler#0" />
+                <element signature="method#resolveExtra#0;class#ClientConnectionHandler#0" />
+                <element signature="method#resolveEnemy#0;class#ClientConnectionHandler#0" />
+                <element signature="method#getStandardCommand#0;class#ClientConnectionHandler#0" />
+                <element signature="method#resolveWeapon#0;class#ClientConnectionHandler#0" />
+                <element signature="method#resolveSound#0;class#ClientConnectionHandler#0" />
+                <element signature="method#resolvePlayers#0;class#ClientConnectionHandler#0" />
+                <element signature="method#sendCommend#0;class#ClientConnectionHandler#0" />
+                <element signature="method#getScreen#0;class#ClientConnectionHandler#0" />
+                <element signature="method#addPlayer#0;class#ClientConnectionHandler#0" />
+                <element signature="method#getServerAnswer#0;class#ClientConnectionHandler#0" />
+                <element signature="method#changeState#0;class#ClientConnectionHandler#0" />
+                <element signature="method#closeSocket#0;class#ClientConnectionHandler#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/WavesHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="688">
+              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/game/MultiPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2128">
+              <caret line="152" selection-start-line="152" selection-end-line="152" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/PauseMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1648">
+              <caret line="123" column="17" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Utils/DataBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1776">
+              <caret line="300" selection-start-line="300" selection-end-line="300" />
+              <folding>
+                <element signature="method#DataBase#0;class#DataBase#0" />
+                <element signature="e#255#357#0" />
+                <element signature="e#957#1080#1" />
+                <element signature="e#1213#1410#1" />
+                <element signature="method#addPlayer#0;class#DataBase#0" />
+                <element signature="method#updatePlayer#0;class#DataBase#0" />
+                <element signature="method#removePlayer#0;class#DataBase#0" />
+                <element signature="method#creatRankingTable#0;class#DataBase#0" />
+                <element signature="method#getPlayersNames#0;class#DataBase#0" />
+                <element signature="method#creatWaveInfo#0;class#DataBase#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Client/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/chickens/Chicken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+            <state relative-caret-position="150">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +1152,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Client/ClientTCPConnection.java">
+        <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/spaceship/SpaceShip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="1328">
+              <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/ServerClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3248">
+              <caret line="215" selection-start-line="215" selection-end-line="215" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,28 +1173,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/ServerMain.java">
+        <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/GameState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" selection-start-line="19" selection-start-column="1" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/ServerTCPConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="2176">
+              <caret line="160" column="5" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,27 +1185,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/ServerClient.java">
+        <entry file="file://$PROJECT_DIR$/files/users/aa.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/GameState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-58">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding>
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="86" selection-start-column="86" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -117,9 +1198,49 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wait()</find>
+      <find>?</find>
+      <find>System.out</find>
+      <find>pauseGam</find>
+      <find>stopGame</find>
+      <find>7539</find>
+      <find>setTimerSt</find>
+      <find>sendMess</find>
+      <find>REMOVE</find>
+      <find>static</find>
+      <find>cl</find>
+      <find>System.out.</find>
+      <find>enemy</find>
+      <find>missile.getre</find>
+      <find>fc</find>
+      <find>extends canvas</find>
+      <find>url</find>
+      <find>getsta</find>
+      <find>System.out.print</find>
+      <find>missile</find>
+      <find>removes</find>
+      <find>stop</find>
+      <find>close</find>
+      <find>socket.close</find>
+      <find>sto</find>
+      <find>life</find>
+      <find>System.out.pri</find>
+      <find>up</find>
+      <find>resolve</find>
+      <find>ADD</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Constants.HEIGHT</replace>
+      <replace>Constants.WIDTH</replace>
+      <replace>Chicken</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,23 +1248,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Server/GameStates.java" />
-        <option value="$PROJECT_DIR$/src/Utils/UniqueId.java" />
-        <option value="$PROJECT_DIR$/src/Server/Server.java" />
-        <option value="$PROJECT_DIR$/src/Server/ServerMain.java" />
-        <option value="$PROJECT_DIR$/src/Client/ClientTCPConnection.java" />
-        <option value="$PROJECT_DIR$/src/Server/GameState.java" />
-        <option value="$PROJECT_DIR$/src/Client/ClientMain.java" />
-        <option value="$PROJECT_DIR$/src/Server/ServerTCPConnection.java" />
-        <option value="$PROJECT_DIR$/src/Server/ServerClient.java" />
-        <option value="$PROJECT_DIR$/src/Client/Client.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/pools/EggObjectPool.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/pools/FoodObjectPool.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/pools/PowerUpObjectPool.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/extras/Coin.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/extras/PowerUp.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/extras/Egg.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/extras/Food.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/Server.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/ServerMain.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/ServerConnectionHandler.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/SquareGroup.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/GroupLoader.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/animations/Message.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/GroupLoader.java" />
+        <option value="D:/Training/Projects/Java/ballSimulation/src/particleSimulator/Menu.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/audio/AudioManager.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/Boss.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/Assets.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/weapons/Laser.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/Constants.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/PlayerView.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/MyPlayer.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/DrawableObject.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/game/GameSelection.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/GameObjects.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/game/GameScreen.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/spaceship/SpaceShip.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/weapons/Missile.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/ServerClient.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/PlayerProperties.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/Group.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/ClientConnectionHandler.java" />
+        <option value="$PROJECT_DIR$/files/users/f.json" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/TurningGroup.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/GameState.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/PauseMenu.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/chickens/Boss.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/game/MultiPlayer.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/Menu.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/ClientMain.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/systemManager/PlayersManager.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/BossGroup.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/CircularGroup.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/RotationalGroup.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/SuicideGroup.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Utils/Loader.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Client/Client.java" />
+        <option value="$PROJECT_DIR$/files/users/aa.json" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/WavesHandler.java" />
+        <option value="$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/chickens/Chicken.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="168" />
-    <option name="width" value="1182" />
-    <option name="height" value="1058" />
+    <option name="x" value="529" />
+    <option name="y" value="4" />
+    <option name="width" value="983" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -160,19 +1323,86 @@
             <path>
               <item name="Chicken Invaders-Down of the new world" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chicken Invaders-Down of the new world" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chicken Invaders-Down of the new world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chicken Invaders-Down of the new world" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chicken Invaders-Down of the new world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chicken Invaders-Down of the new world" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chicken Invaders-Down of the new world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chicken Invaders-Down of the new world" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Chicken Invaders-Down of the new world" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chicken Invaders-Down of the new world" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="farzinnasiri" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chicken Invaders-Down of the new world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chicken Invaders-Down of the new world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="farzinnasiri" type="462c0819:PsiDirectoryNode" />
               <item name="Client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Chicken Invaders-Down of the new world" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chicken Invaders-Down of the new world" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="farzinnasiri" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="menus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chicken Invaders-Down of the new world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chicken Invaders-Down of the new world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="farzinnasiri" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chicken Invaders-Down of the new world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chicken Invaders-Down of the new world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="farzinnasiri" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="gameObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chicken Invaders-Down of the new world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chicken Invaders-Down of the new world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="farzinnasiri" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="gameObject" type="462c0819:PsiDirectoryNode" />
+              <item name="enemies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chicken Invaders-Down of the new world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chicken Invaders-Down of the new world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="farzinnasiri" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="gameObject" type="462c0819:PsiDirectoryNode" />
+              <item name="enemies" type="462c0819:PsiDirectoryNode" />
+              <item name="groups" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chicken Invaders-Down of the new world" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chicken Invaders-Down of the new world" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="farzinnasiri" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,12 +1413,36 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558447434977" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/ap-2018-bomberman-master" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565109000064" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="D:/Training/Projects/Java/Space Ship Game episodio 21" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\Chicken Invaders-Down of the new world\src\ir\farzinnasiri\Server\gameObject\enemies\groups" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ir.farzinnasiri.Server.gameObject.spaceship" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\Chicken Invaders-Down of the new world\src\Client\menus" />
+      <recent name="D:\github\Chicken Invaders-Down of the new world\src\Client\stateMachine" />
+      <recent name="D:\github\Chicken Invaders-Down of the new world\src\Utils" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -202,13 +1456,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ServerMain">
+  <component name="RunManager" selected="Application.ClientMain">
     <configuration name="ClientMain" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client.ClientMain" />
+      <option name="MAIN_CLASS_NAME" value="ir.farzinnasiri.Client.ClientMain" />
       <module name="Chicken Invaders-Down of the new world" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Client.*" />
+          <option name="PATTERN" value="ir.farzinnasiri.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ir.farzinnasiri.Utils.DataBase" />
+      <module name="Chicken Invaders-Down of the new world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ir.farzinnasiri.Utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +1484,11 @@
       </method>
     </configuration>
     <configuration name="ServerMain" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Server.ServerMain" />
+      <option name="MAIN_CLASS_NAME" value="ir.farzinnasiri.Server.ServerMain" />
       <module name="Chicken Invaders-Down of the new world" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Server.*" />
+          <option name="PATTERN" value="ir.farzinnasiri.Server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,10 +1499,12 @@
     <list>
       <item itemvalue="Application.ServerMain" />
       <item itemvalue="Application.ClientMain" />
+      <item itemvalue="Application.DataBase" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ClientMain" />
+        <item itemvalue="Application.DataBase" />
         <item itemvalue="Application.ServerMain" />
       </list>
     </recent_temporary>
@@ -251,150 +1520,612 @@
       <option name="presentableId" value="Default" />
       <updated>1558430687882</updated>
       <workItem from="1558430689247" duration="8751000" />
+      <workItem from="1558464040498" duration="622000" />
+      <workItem from="1558520363814" duration="10465000" />
+      <workItem from="1558855245044" duration="3279000" />
+      <workItem from="1558883365375" duration="258000" />
+      <workItem from="1561897943589" duration="4345000" />
+      <workItem from="1561902390847" duration="10832000" />
+      <workItem from="1561955337860" duration="6762000" />
+      <workItem from="1561969414022" duration="22329000" />
+      <workItem from="1562005402095" duration="964000" />
+      <workItem from="1562006382591" duration="4744000" />
+      <workItem from="1562129917914" duration="4102000" />
+      <workItem from="1563871548906" duration="5309000" />
+      <workItem from="1563967575290" duration="21438000" />
+      <workItem from="1563994596592" duration="1334000" />
+      <workItem from="1564038458234" duration="29637000" />
+      <workItem from="1564122003580" duration="38824000" />
+      <workItem from="1564212734693" duration="17339000" />
+      <workItem from="1564295492620" duration="14936000" />
+      <workItem from="1564381860771" duration="23499000" />
+      <workItem from="1564472979056" duration="15346000" />
+      <workItem from="1564558945435" duration="29539000" />
+      <workItem from="1564636702318" duration="36314000" />
+      <workItem from="1564714494819" duration="43727000" />
+      <workItem from="1564824381500" duration="8753000" />
+      <workItem from="1564925160946" duration="2000" />
+      <workItem from="1564925219100" duration="6072000" />
+      <workItem from="1565001062900" duration="11566000" />
+      <workItem from="1565098123229" duration="4610000" />
+      <workItem from="1566130524820" duration="211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8751000" />
+    <option name="totallyTimeSpent" value="385698000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1618" height="877" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13478819" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1732991" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.32991013" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28590605" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4935815" weight="0.47919464" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.50641847" side_tool="true" weight="0.24161074" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49935815" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32885906" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006418" side_tool="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Statistic" order="11" sideWeight="0.49935815" weight="0.35167786" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.3771812" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.20134228" />
+      <window_info anchor="bottom" id="Duplicate detector" order="15" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32991013" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18035944" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.32991013" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4935815" visible="true" weight="0.33825505" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.50641847" side_tool="true" weight="0.24161074" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49935815" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32885906" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006418" side_tool="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Statistic" order="11" sideWeight="0.49935815" weight="0.35167786" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.2872483" />
+      <window_info anchor="bottom" id="Duplicate detector" order="15" weight="0.32885906" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32991013" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Server/ServerWindow.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="179">
+          <caret line="168" column="25" selection-start-line="168" selection-start-column="25" selection-end-line="168" selection-end-column="25" />
+          <folding>
+            <element signature="e#6446#6447#0" expanded="true" />
+            <element signature="e#6527#6528#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/UniqueId.java">
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Utils/Vector2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="297">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="98" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/weapons/Laser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/PlayerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding>
+            <element signature="e#2588#2589#0" expanded="true" />
+            <element signature="e#2615#2616#0" expanded="true" />
+            <element signature="e#2656#2657#0" expanded="true" />
+            <element signature="e#2688#2689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Utils/GroupLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/ClientWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/animations/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="96">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/net/ServerSocket.java">
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/game/GameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="512" column="18" selection-start-line="512" selection-start-column="18" selection-end-line="512" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="2736">
+          <caret line="289" column="38" selection-start-line="289" selection-start-column="38" selection-end-line="289" selection-end-column="38" />
           <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
+            <element signature="method#playGameMusic#0;class#GameScreen#0" />
+            <element signature="method#setViewerEnterBtn#0;class#GameScreen#0" />
+            <element signature="method#setCursor#0;class#GameScreen#0" />
+            <element signature="method#getInstances#0;class#GameScreen#0" />
+            <element signature="method#addMyPlayer#0;class#GameScreen#0" />
+            <element signature="method#changeViewToGame#0;class#GameScreen#0" />
+            <element signature="method#update#0;class#GameScreen#0" />
+            <element signature="method#drawTextBox#0;class#GameScreen#0" />
+            <element signature="method#init#0;class#GameScreen#0" />
+            <element signature="class#ServerTextBox#0;class#GameScreen#0" />
+            <element signature="method#ServerTextBox#0;class#ServerTextBox#0;class#GameScreen#0" />
+            <element signature="method#update#0;class#ServerTextBox#0;class#GameScreen#0" />
+            <element signature="method#getLastMessage#0;class#ServerTextBox#0;class#GameScreen#0" />
+            <element signature="method#addMessage#0;class#ServerTextBox#0;class#GameScreen#0" />
+            <element signature="method#run#0;class#ServerTextBox#0;class#GameScreen#0" />
+            <element signature="class#KeyHandler#0;class#GameScreen#0" />
+            <element signature="method#keyTyped#0;class#KeyHandler#0;class#GameScreen#0" />
+            <element signature="method#keyPressed#0;class#KeyHandler#0;class#GameScreen#0" />
+            <element signature="method#keyReleased#0;class#KeyHandler#0;class#GameScreen#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/game/GameSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/EnemyType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/GameObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/ClientMain.java">
+    <entry file="file://$PROJECT_DIR$/files/users/farzin.json" />
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/ServerConnectionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+        <state relative-caret-position="156">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="method#sendUpdatesToAllClients#0;class#ServerConnectionHandler#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/ServerMain.java">
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Utils/PlayerProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" selection-start-line="19" selection-start-column="1" selection-end-line="20" />
+        <state relative-caret-position="304">
+          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+          <folding>
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/ServerTCPConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/weapons/Missile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="960">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#2691#2692#0" expanded="true" />
+            <element signature="e#2723#2724#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/SquareGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="141" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/ClientTCPConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/buttons/Button.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="110">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/TurningGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server/ServerClient.java">
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/chickens/Boss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+        <state relative-caret-position="102">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/Client.java">
+    <entry file="file://$PROJECT_DIR$/files/users/f.json" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="154" column="54" selection-start-line="154" selection-start-column="54" selection-end-line="154" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/BossGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="84" column="3" selection-start-line="84" selection-start-column="3" selection-end-line="87" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2397#2398#0" expanded="true" />
+            <element signature="e#2314#2315#0" expanded="true" />
+            <element signature="e#2347#2348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/CircularGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="198" column="24" selection-start-line="198" selection-start-column="24" selection-end-line="198" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6080#6081#0" expanded="true" />
+            <element signature="e#6193#6194#0" expanded="true" />
+            <element signature="e#6275#6276#0" expanded="true" />
+            <element signature="e#6392#6393#0" expanded="true" />
+            <element signature="e#6434#6435#0" expanded="true" />
+            <element signature="e#6468#6469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/RotationalGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/GameObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+          <folding>
+            <element signature="method#getInstance#0;class#GameObjects#0" />
+            <element signature="method#removeWeapon#0;class#GameObjects#0" />
+            <element signature="method#getWeapons#0;class#GameObjects#0" />
+            <element signature="method#addMissileExplosion#0;class#GameObjects#0" />
+            <element signature="method#addExplosion#0;class#GameObjects#0" />
+            <element signature="method#removeExplosion#0;class#GameObjects#0" />
+            <element signature="method#removeEnemy#0;class#GameObjects#0" />
+            <element signature="method#removeExtra#0;class#GameObjects#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/MyPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="246" selection-start-line="246" selection-end-line="246" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/options/customize/SpaceshipCustomization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/ClientMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/groups/SuicideGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/configs/effectsConfigs.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/configs/extrasConfigs.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/configs/gameBoxesConfigs.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/configs/engineColorIconsConfigs.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Utils/Assets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1556">
+          <caret line="174" column="26" selection-start-line="174" selection-start-column="26" selection-end-line="174" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/systemManager/PlayersManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="166" column="36" lean-forward="true" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Utils/Loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/views/DrawableObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4690#4691#0" expanded="true" />
+            <element signature="e#4730#4731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Utils/ObjectPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="160" column="5" lean-forward="true" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/users/aa.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="86" selection-start-column="86" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/WavesHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/spaceship/SpaceShip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2033">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/ServerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2734">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/ClientConnectionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="159" column="35" selection-start-line="159" selection-start-column="35" selection-end-line="159" selection-end-column="35" />
+          <folding>
+            <element signature="method#ClientConnectionHandler#0;class#ClientConnectionHandler#0" />
+            <element signature="method#init#0;class#ClientConnectionHandler#0" />
+            <element signature="method#start#0;class#ClientConnectionHandler#0" />
+            <element signature="method#stop#0;class#ClientConnectionHandler#0" />
+            <element signature="method#resolveExtra#0;class#ClientConnectionHandler#0" />
+            <element signature="method#resolveEnemy#0;class#ClientConnectionHandler#0" />
+            <element signature="method#getStandardCommand#0;class#ClientConnectionHandler#0" />
+            <element signature="method#resolveWeapon#0;class#ClientConnectionHandler#0" />
+            <element signature="method#resolveSound#0;class#ClientConnectionHandler#0" />
+            <element signature="method#resolvePlayers#0;class#ClientConnectionHandler#0" />
+            <element signature="method#sendCommend#0;class#ClientConnectionHandler#0" />
+            <element signature="method#getScreen#0;class#ClientConnectionHandler#0" />
+            <element signature="method#addPlayer#0;class#ClientConnectionHandler#0" />
+            <element signature="method#getServerAnswer#0;class#ClientConnectionHandler#0" />
+            <element signature="method#changeState#0;class#ClientConnectionHandler#0" />
+            <element signature="method#closeSocket#0;class#ClientConnectionHandler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/game/MultiPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Client/menus/PauseMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="123" column="17" lean-forward="true" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Utils/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="300" lean-forward="true" selection-start-line="300" selection-end-line="300" />
+          <folding>
+            <element signature="method#DataBase#0;class#DataBase#0" />
+            <element signature="e#255#357#0" />
+            <element signature="e#957#1080#1" />
+            <element signature="e#1213#1410#1" />
+            <element signature="method#addPlayer#0;class#DataBase#0" />
+            <element signature="method#updatePlayer#0;class#DataBase#0" />
+            <element signature="method#removePlayer#0;class#DataBase#0" />
+            <element signature="method#creatRankingTable#0;class#DataBase#0" />
+            <element signature="method#getPlayersNames#0;class#DataBase#0" />
+            <element signature="method#creatWaveInfo#0;class#DataBase#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ir/farzinnasiri/Server/gameObject/enemies/chickens/Chicken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -404,9 +2135,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Chicken Invaders-Down of the new world</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-8.0.17</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
